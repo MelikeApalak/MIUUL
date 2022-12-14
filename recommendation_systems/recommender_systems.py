@@ -1,7 +1,7 @@
 import pandas as pd
 from mlxtend.frequent_patterns import apriori,association_rules
 
-pd.set_option('display.mac_columns',None)
+pd.set_option('display.max_columns',None)
 pd.set_option('display.width',500)
 pd.set_option('display.expand_frame_repr',False)
 
